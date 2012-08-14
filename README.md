@@ -8,4 +8,4 @@ Although this example project has almost zero real world value, you can execute 
 
 	grunt 
 
-Alternativley, open the [Test Runner](https://raw.github.com/jonnyreeves/qunit-require/master/tests/tests.html] in your web browser.
+Alternativley, view the `tests/tests.html` TestRunning in your web browser.
