@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Example Test Runner</title>
@@ -6,6 +6,12 @@
 
 		<!-- QUnit includes -->
 	    <script src="vendor/qunit.js"></script>
+        
+        <!--Prevent Tests from auto starting-->
+        <script>
+        // Defer Qunit so RequireJS can work its magic and resolve all modules.
+        QUnit.config.autostart = false;
+        </script>
 		
 		<!-- Load RequireJS & the testsuite -->
 		<script src="../src/require-config.js"></script>
